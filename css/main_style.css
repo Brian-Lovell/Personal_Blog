@@ -10,3 +10,15 @@
     "main_left"
     "main_footer";
 }
+
+#main_nav {
+    display:flex;
+    border: red 2px solid;
+    flex-direction: row;
+}
+
+.main_main {
+    display: flex;
+    border:red 2px solid;
+    flex-direction:column;
+}
