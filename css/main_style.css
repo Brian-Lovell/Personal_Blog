@@ -1,0 +1,12 @@
+.main_box {
+    display: grid;
+    border:red 2px solid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "main_header"
+    "main_nav"
+    "main_main"
+    "main_right"
+    "main_left"
+    "main_footer";
+}
