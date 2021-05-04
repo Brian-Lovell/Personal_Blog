@@ -1,24 +1,61 @@
-.main_box {
+#box {
+    /* TODO: Mobile then widescreen */
     display: grid;
     border:red 2px solid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 150px 600px 1fr;
     grid-template-areas:
-    "main_header"
-    "main_nav"
-    "main_main"
-    "main_right"
-    "main_left"
-    "main_footer";
+    "left hd hd hd right"
+    "left nav nav nav right"
+    "left ct ct ct right"
+    "ftr ftr ftr ftr ftr";
 }
-
-#main_nav {
-    display:flex;
-    border: red 2px solid;
-    flex-direction: row;
-}
-
-.main_main {
-    display: flex;
+#header {
     border:red 2px solid;
-    flex-direction:column;
+    grid-area: hd;
+}
+
+#nav_box {
+    display:flex;
+    flex-direction:row;
+    border: red 2px solid;
+    grid-area:nav;
+}
+
+#content_box {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+    grid-area:ct;
+    border:red 2px solid;
+}
+
+#left {
+    grid-area:left;
+    border: red 2px solid;
+}
+
+#right {
+    grid-area:right;
+    border:red 2px solid;
+}
+
+#footer_box {
+    grid-area:ftr;
+    border:red 2px solid;
+}
+
+#list {
+    border:red 2px solid;
+}
+
+#side_list{
+    border:red 2px solid;
+}
+.nav {
+    border:red 2px solid;
+}
+
+.post {
+    border:red 2px solid;
 }
