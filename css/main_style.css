@@ -1,17 +1,67 @@
-#box {
-    /* TODO: Mobile then widescreen */
+/* Mobile or small screens */
+.box {
+    font-family: 'Chakra Petch', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     display: grid;
     border:red 2px solid;
-    grid-template-columns: 150px 600px 1fr;
+    color:rgb(202, 202, 202);
+    background-color:rgb(24, 24, 24);
+    grid-template-columns: 100px 600px 1fr;
     grid-template-areas:
-    "left hd hd hd right"
-    "left nav nav nav right"
-    "left ct ct ct right"
-    "ftr ftr ftr ftr ftr";
+    "hd hd hd"
+    "nav nav nav"
+    "ct ct ct"
+    "ftr ftr ftr"
+    "left left left"
+    "right right right";
+}
+#content_box {
+    display: grid;
+    grid-area:ct;
+    grid-template-areas:
+    "list"
+    "list"
+    "side";
+    border:red 2px solid;
+}
+
+
+/* Widescreen */
+@media (min-width:901px) {
+    .box {
+        font-family: 'Chakra Petch', sans-serif;
+        /* font-family: 'Roboto', sans-serif; */
+        display: grid;
+        border:red 2px solid;
+        color:rgb(202, 202, 202);
+        background-color:rgb(24, 24, 24);
+        grid-template-columns: 150px 600px 1fr;
+        grid-template-rows: 150px 50px auto 150px;
+        grid-template-areas:
+        "left hd hd hd hd"
+        "left nav nav nav right"
+        "left ct ct ct right"
+        "ftr ftr ftr ftr ftr";
+    }
+    #content_box {
+        display: grid;
+        grid-area:ct;
+        grid-template-areas:
+        "list list side"
+        "list list side"
+        "list list side";
+        border:red 2px solid;
+    }
 }
 #header {
+    display:flex;
+    
+    justify-content:left;
+    height:150px;
+    grid-area:hd;
+    font-style:italic;
     border:red 2px solid;
-    grid-area: hd;
+
 }
 
 #nav_box {
@@ -21,35 +71,43 @@
     grid-area:nav;
 }
 
-#content_box {
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content:center;
-    grid-area:ct;
-    border:red 2px solid;
-}
+
 
 #left {
+    display:flex;
+    height:1440px;
+    width:150px;
     grid-area:left;
     border: red 2px solid;
+    background-image:url("../images/left_side.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color:rgb(99, 99, 99);
 }
 
 #right {
     grid-area:right;
     border:red 2px solid;
+    background: linear-gradient(to right, black,blue)
 }
 
 #footer_box {
     grid-area:ftr;
     border:red 2px solid;
+    background-color:rgb(99, 99, 99);
 }
 
 #list {
+    grid-area:list;
+    display: flex;
+    flex-direction:column;
     border:red 2px solid;
 }
 
 #side_list{
+    grid-area:side;
+    display:flex;
+    flex-direction:column;
     border:red 2px solid;
 }
 .nav {
@@ -57,5 +115,9 @@
 }
 
 .post {
+    border:red 2px solid;
+}
+
+.side {
     border:red 2px solid;
 }
