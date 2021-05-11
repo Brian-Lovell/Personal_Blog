@@ -1,8 +1,24 @@
 /* Mobile or small screens */
-.box {
+#box {
     display:grid;
+    grid-template-areas:
+    "main_p"
+    "main_p"
+    "pad_b";
+}
+#left_pad {
+    display:none;
+}
+#right_pad {
+    display:none;
+}
+#bottom_pad {
+    grid-area:pad_b;
+    display:flex;
+    border:red 2px solid;
 }
 #main_page {
+    grid-area:main_p;
     font-family: 'Chakra Petch', sans-serif;
     /* font-family: 'Roboto', sans-serif; */
     display: grid;
@@ -32,87 +48,6 @@
 }
 #right {
     display:none;
-}
-/* TODO: Add middle format - remove sidebars? */
-/* Widescreen */
-@media (min-width:901px) {
-    .box {
-        display:grid;
-        grid-template-columns: auto auto auto;
-        grid-template-areas:
-        "pad_l main_p pad_r"
-        "pad_b pad_b pad_b";
-
-    }
-    #main_page {
-        grid-area:main_p;
-        font-family: 'Chakra Petch', sans-serif;
-        /* font-family: 'Roboto', sans-serif; */
-        display: grid;
-        border:red 2px solid;
-        color:rgb(202, 202, 202);
-        background-color:rgb(24, 24, 24);
-        grid-template-columns: 150px 600px 1fr;
-        grid-template-rows: 150px 50px auto 50px;
-        grid-template-areas:
-        "left hd hd hd hd"
-        "left nav nav nav right"
-        "left ct ct ct right"
-        "ftr ftr ftr ftr ftr";
-    }
-    #content_box {
-        display: grid;
-        grid-area:ct;
-        grid-template-columns:auto auto auto auto auto;
-        grid-template-areas:
-        "wrap_left list list side wrap_right"
-        "wrap_left list list side wrap_right"
-        "wrap_left list list side wrap_right";
-        border:red 2px solid;
-    }
-    #left {
-        display:flex;
-        height:1440px;
-        width:150px;
-        grid-area:left;
-        border: red 2px solid;
-        background-image:url(../images/left_side.png);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-color:rgb(99, 99, 99);
-    }
-    #right {
-        display:flex;
-        grid-area:right;
-        border:red 2px solid;
-        background: linear-gradient(to right, black,blue)
-    }
-    #wrap_left {
-        display:flex;
-        grid-area:wrap_left;
-        border: red 2px solid;
-    }
-    #wrap_right {
-        display:flex;
-        grid-area:wrap_right;
-        border: red 2px solid;
-
-    }
-    #pad_left {
-        grid-area:pad_l;
-        display:flex;
-        border:red 2px solid;
-    }
-    #pad_right {
-        grid-area:pad_r;
-        display:flex;
-        border:red 2px solid;
-    }
-    #pad_bottom {
-        grid-area:pad_b;
-        display:flex;
-        border:red 2px solid;
-    }
 }
 #header {
     display:flex;
@@ -173,4 +108,88 @@
 
 .side {
     border:red 2px solid;
+}
+/* TODO: Add middle format - remove sidebars? */
+/* Widescreen */
+@media (min-width:901px) {
+    #box {
+        display:grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows:auto;
+        grid-template-areas:
+        "pad_l main_p pad_r"
+        "pad_l main_p pad_r"
+        "pad_l main_p pad_r"
+        "pad_b pad_b pad_b";
+
+    }
+    #main_page {
+        grid-area:main_p;
+        font-family: 'Chakra Petch', sans-serif;
+        /* font-family: 'Roboto', sans-serif; */
+        display: grid;
+        border:red 2px solid;
+        color:rgb(202, 202, 202);
+        background-color:rgb(24, 24, 24);
+        grid-template-columns: 150px 600px 1fr;
+        grid-template-rows: 150px 50px auto 50px;
+        grid-template-areas:
+        "left hd hd hd hd"
+        "left nav nav nav right"
+        "left ct ct ct right"
+        "ftr ftr ftr ftr ftr";
+    }
+    #content_box {
+        display: grid;
+        grid-area:ct;
+        grid-template-columns:auto auto;
+        grid-template-areas:
+        "list list"
+        "list list"
+        "list list";
+        border:red 2px solid;
+    }
+    #left {
+        display:flex;
+        height:1440px;
+        width:150px;
+        grid-area:left;
+        border: red 2px solid;
+        background-image:url(../images/left_side.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-color:rgb(99, 99, 99);
+    }
+    #right {
+        display:flex;
+        grid-area:right;
+        border:red 2px solid;
+        background: linear-gradient(to right, black,blue)
+    }
+    /* #wrap_left {
+        display:flex;
+        grid-area:wrap_left;
+        border: red 2px solid; */
+    /* }
+    #wrap_right {
+        display:flex;
+        grid-area:wrap_right;
+        border: red 2px solid;
+
+    } */
+    #left_pad {
+        grid-area:pad_l;
+        display:flex;
+        border:red 2px solid;
+    }
+    #right_pad {
+        grid-area:pad_r;
+        display:flex;
+        border:red 2px solid;
+    }
+    #bottom_pad {
+        grid-area:pad_b;
+        display:flex;
+        border:red 2px solid;
+    }
 }
