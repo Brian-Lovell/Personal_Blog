@@ -127,7 +127,8 @@
 }
 
 .nav {
-    background-color:rgb(202, 202, 202)
+    background-color:rgb(202, 202, 202);
+    color:rgb(24, 24, 24);
     border:red 2px solid;
 }
 
