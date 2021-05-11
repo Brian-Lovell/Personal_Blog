@@ -51,10 +51,11 @@
     #content_box {
         display: grid;
         grid-area:ct;
+        grid-template-columns: 1fr 600px 250px 1fr;
         grid-template-areas:
-        "list list side"
-        "list list side"
-        "list list side";
+        "wrapper list list side wrapper"
+        "wrapper list list side wrapper"
+        "wrapper list list side wrapper";
         border:red 2px solid;
     }
     #left {
@@ -73,6 +74,11 @@
         grid-area:right;
         border:red 2px solid;
         background: linear-gradient(to right, black,blue)
+    }
+    #wrapper {
+        display:flex;
+        grid-area:wrapper;
+        border: red 2px solid;
     }
 }
 #header {
