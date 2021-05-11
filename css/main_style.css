@@ -41,7 +41,7 @@
         color:rgb(202, 202, 202);
         background-color:rgb(24, 24, 24);
         grid-template-columns: 150px 600px 1fr;
-        grid-template-rows: 150px 50px auto 150px;
+        grid-template-rows: 150px 50px auto 50px;
         grid-template-areas:
         "left hd hd hd hd"
         "left nav nav nav right"
@@ -64,7 +64,7 @@
         width:150px;
         grid-area:left;
         border: red 2px solid;
-        background-image:url("../images/left_side.png");
+        background-image:url(../images/left_side.png);
         background-size:cover;
         background-repeat: no-repeat;
         background-color:rgb(99, 99, 99);
@@ -106,11 +106,15 @@
 }
 
 #footer_box {
+    display:flex;
     grid-area:ftr;
+    height:100px;
+    /* width:2560px; */
     border:red 2px solid;
     background-image:url(../images/footer.png);
     background-size:cover;
     background-repeat:no-repeat;
+    background-position:bottom;
     background-color:rgb(99, 99, 99);
 }
 
