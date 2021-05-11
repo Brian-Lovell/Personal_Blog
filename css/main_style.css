@@ -15,15 +15,18 @@
 
     .left-pad {
         display:none;
+        border:red 2px solid;
     }
 
     .right-pad {
         display:none;
+        border:red 2px solid;
     }
 
     .bottom-pad {
         display:flex;
         grid-area:bp;
+        border:red 2px solid;
     }
 
     /* Content Container */
@@ -35,13 +38,14 @@
         "nav"
         "ctm"
         "ftr";
+        border:red 2px solid;
     }
 
     /* Header Style */
     .header {
         display:flex;
         justify-content:left;
-        height:150px;
+        height:100px;
         padding:1em;
         grid-area:hd;
         font-style:italic;
@@ -52,22 +56,42 @@
     .nav {
         display:flex;
         grid-area:nav;
+        flex-direction:row;
+        border:red 2px solid;
+    }
+
+    .nav-button {
+        display:flex;
+        margin:0.5em;
     }
 
     /* Content Style */
     .content-main {
         display:flex;
         grid-area:ctm;
+        flex-direction:column;
+        border:red 2px solid;
     }
 
     .content-post {
         display:flex;
+        flex-direction:column;
+        border:red 2px solid;
     }
 
     /* Footer Style */
     .footer {
         display:flex;
         grid-area:ftr;
+        border:red 2px solid;
+    }
+    /* Border Style */
+    .content-left-border {
+        display:none;
+    }
+
+    .content-right-border {
+        display:none;
     }
 }
 /* TODO: Add middle format - remove sidebars? */
