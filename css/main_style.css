@@ -1,5 +1,8 @@
 /* Mobile or small screens */
 .box {
+    display:grid;
+}
+#main_page {
     font-family: 'Chakra Petch', sans-serif;
     /* font-family: 'Roboto', sans-serif; */
     display: grid;
@@ -34,6 +37,15 @@
 /* Widescreen */
 @media (min-width:901px) {
     .box {
+        display:grid;
+        grid-template-columns: auto auto auto;
+        grid-template-areas:
+        "pad_l main_p pad_r"
+        "pad_b pad_b pad_b";
+
+    }
+    #main_page {
+        grid-area:main_p;
         font-family: 'Chakra Petch', sans-serif;
         /* font-family: 'Roboto', sans-serif; */
         display: grid;
@@ -85,6 +97,21 @@
         grid-area:wrap_right;
         border: red 2px solid;
 
+    }
+    #pad_left {
+        grid-area:pad_l;
+        display:flex;
+        border:red 2px solid;
+    }
+    #pad_right {
+        grid-area:pad_r;
+        display:flex;
+        border:red 2px solid;
+    }
+    #pad_bottom {
+        grid-area:pad_b;
+        display:flex;
+        border:red 2px solid;
     }
 }
 #header {
