@@ -1,209 +1,74 @@
 /* Mobile or small screens */
-@media (max-width:320px) {
+@media (max-width:520px) {
     /* Page Styling */
+    /* Single column */
     .main-page {
         display:grid;
-        grid-template-areas:none;
-        /* single column */
+        grid-template-areas:
+        "ct"
+        "bp";
+        font-family: 'Chakra Petch', sans-serif;
+        /* font-family: 'Roboto', sans-serif; */
+        color:rgb(202, 202, 202);
+        background-color:rgb(24, 24, 24);
     }
+
     .left-pad {
-        display:flex;
+        display:none;
     }
+
     .right-pad {
-        display:flex;
+        display:none;
     }
+
     .bottom-pad {
         display:flex;
+        grid-area:bp;
     }
+
+    /* Content Container */
     .content {
         display:grid;
+        grid-area:ct;
+        grid-template-areas:
+        "hd"
+        "nav"
+        "ctm"
+        "ftr";
     }
-}
 
-#left_pad {
-    display:none;
-}
-#right_pad {
-    display:none;
-}
-#bottom_pad {
-    grid-area:pad_b;
-    display:flex;
-    border:red 2px solid;
-}
-#main_page {
-    grid-area:main_p;
-    font-family: 'Chakra Petch', sans-serif;
-    /* font-family: 'Roboto', sans-serif; */
-    display: grid;
-    border:red 2px solid;
-    color:rgb(202, 202, 202);
-    background-color:rgb(24, 24, 24);
-    grid-template-columns: 100px 600px 1fr;
-    grid-template-areas:
-    "hd hd hd"
-    "nav nav nav"
-    "ct ct ct"
-    "ftr ftr ftr"
-    "left left left"
-    "right right right";
-}
-#content_box {
-    display: grid;
-    grid-area:ct;
-    grid-template-areas:
-    "list"
-    "list"
-    "side";
-    border:red 2px solid;
-}
-#left {
-    display:none;
-}
-#right {
-    display:none;
-}
-#header {
-    display:flex;
-    justify-content:left;
-    height:150px;
-    padding:1em;
-    grid-area:hd;
-    font-style:italic;
-    border:red 2px solid;
+    /* Header Style */
+    .header {
+        display:flex;
+        justify-content:left;
+        height:150px;
+        padding:1em;
+        grid-area:hd;
+        font-style:italic;
+        border:red 2px solid;
+    }
 
-}
+    /* Navigation Style */
+    .nav {
+        display:flex;
+        grid-area:nav;
+    }
 
-#nav_box {
-    display:flex;
-    flex-direction:row;
-    border: red 2px solid;
-    grid-area:nav;
-}
+    /* Content Style */
+    .content-main {
+        display:flex;
+        grid-area:ctm;
+    }
 
-#footer_box {
-    display:flex;
-    grid-area:ftr;
-    height:100px;
-    /* width:2560px; */
-    border:red 2px solid;
-    background-image:url(../images/footer.png);
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:bottom;
-    background-color:rgb(99, 99, 99);
-}
+    .content-post {
+        display:flex;
+    }
 
-#list {
-    grid-area:list;
-    display: flex;
-    padding:1em;
-    flex-direction:column;
-    border:red 2px solid;
-}
-
-#side_list{
-    grid-area:side;
-    display:flex;
-    padding:1em;
-    flex-direction:column;
-    border:red 2px solid;
-}
-
-.nav {
-    background-color:rgb(202, 202, 202);
-    color:rgb(24, 24, 24);
-    border:red 2px solid;
-}
-
-.post {
-    border:red 2px solid;
-}
-
-.side {
-    border:red 2px solid;
+    /* Footer Style */
+    .footer {
+        display:flex;
+        grid-area:ftr;
+    }
 }
 /* TODO: Add middle format - remove sidebars? */
 /* Widescreen */
-@media (min-width:901px) {
-    #box {
-        display:grid;
-        grid-template-columns: auto auto auto;
-        grid-template-rows:auto;
-        grid-template-areas:
-        "pad_l main_p pad_r"
-        "pad_l main_p pad_r"
-        "pad_l main_p pad_r"
-        "pad_b pad_b pad_b";
-
-    }
-    #main_page {
-        grid-area:main_p;
-        font-family: 'Chakra Petch', sans-serif;
-        /* font-family: 'Roboto', sans-serif; */
-        display: grid;
-        border:red 2px solid;
-        color:rgb(202, 202, 202);
-        background-color:rgb(24, 24, 24);
-        grid-template-columns: 150px 600px 1fr;
-        grid-template-rows: 150px 50px auto 50px;
-        grid-template-areas:
-        "left hd hd hd hd"
-        "left nav nav nav right"
-        "left ct ct ct right"
-        "ftr ftr ftr ftr ftr";
-    }
-    #content_box {
-        display: grid;
-        grid-area:ct;
-        grid-template-columns:auto auto;
-        grid-template-areas:
-        "list list"
-        "list list"
-        "list list";
-        border:red 2px solid;
-    }
-    #left {
-        display:flex;
-        height:1440px;
-        width:150px;
-        grid-area:left;
-        border: red 2px solid;
-        background-image:url(../images/left_side.png);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-color:rgb(99, 99, 99);
-    }
-    #right {
-        display:flex;
-        grid-area:right;
-        border:red 2px solid;
-        background: linear-gradient(to right, black,blue)
-    }
-    /* #wrap_left {
-        display:flex;
-        grid-area:wrap_left;
-        border: red 2px solid; */
-    /* }
-    #wrap_right {
-        display:flex;
-        grid-area:wrap_right;
-        border: red 2px solid;
-
-    } */
-    #left_pad {
-        grid-area:pad_l;
-        display:flex;
-        border:red 2px solid;
-    }
-    #right_pad {
-        grid-area:pad_r;
-        display:flex;
-        border:red 2px solid;
-    }
-    #bottom_pad {
-        grid-area:pad_b;
-        display:flex;
-        border:red 2px solid;
-    }
-}
