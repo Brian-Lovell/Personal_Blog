@@ -30,7 +30,7 @@
 #right {
     display:none;
 }
-
+/* TODO: Add middle format - remove sidebars? */
 /* Widescreen */
 @media (min-width:901px) {
     .box {
@@ -127,6 +127,7 @@
 }
 
 .nav {
+    background-color:rgb(202, 202, 202)
     border:red 2px solid;
 }
 
