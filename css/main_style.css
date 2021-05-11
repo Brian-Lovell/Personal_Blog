@@ -1,11 +1,25 @@
 /* Mobile or small screens */
-#box {
-    display:grid;
-    grid-template-areas:
-    "main_p"
-    "main_p"
-    "pad_b";
+@media (max-width:320px) {
+    /* Page Styling */
+    .main-page {
+        display:grid;
+        grid-template-areas:none;
+        /* single column */
+    }
+    .left-pad {
+        display:flex;
+    }
+    .right-pad {
+        display:flex;
+    }
+    .bottom-pad {
+        display:flex;
+    }
+    .content {
+        display:grid;
+    }
 }
+
 #left_pad {
     display:none;
 }
