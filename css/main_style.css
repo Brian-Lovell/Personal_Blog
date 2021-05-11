@@ -108,6 +108,9 @@
 #footer_box {
     grid-area:ftr;
     border:red 2px solid;
+    background-image:url(../images/footer.png);
+    background-size:cover;
+    background-repeat:no-repeat;
     background-color:rgb(99, 99, 99);
 }
 
@@ -122,6 +125,7 @@
 #side_list{
     grid-area:side;
     display:flex;
+    padding:1em;
     flex-direction:column;
     border:red 2px solid;
 }
