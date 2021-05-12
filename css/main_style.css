@@ -15,12 +15,10 @@
 
     .left-pad {
         display:none;
-        border:red 2px solid;
     }
 
     .right-pad {
         display:none;
-        border:red 2px solid;
     }
 
     .bottom-pad {
@@ -63,6 +61,12 @@
     .nav-button {
         display:flex;
         margin:0.5em;
+        padding:0.5em;
+        border: grey 2px solid;
+        font-weight:bold;
+        color:rgb(24, 24, 24);
+        background-color:rgb(170, 170, 170);
+        box-shadow: rgb(66, 66, 66) 2em;
     }
 
     /* Content Style */
@@ -76,6 +80,8 @@
     .content-post {
         display:flex;
         flex-direction:column;
+        margin:0.5em;
+        padding:0.5em;
         border:red 2px solid;
     }
 
@@ -83,6 +89,8 @@
     .footer {
         display:flex;
         grid-area:ftr;
+        margin:0.5em;
+        padding:0.5em;
         border:red 2px solid;
     }
     /* Border Style */
