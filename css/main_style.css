@@ -1,6 +1,7 @@
 /* Red rgb 160, 69, 69 */
-/* Silver rgb 202, 202, 202 */
+/* Silver rgb 202, 202, 202*/
 /* Black rgb  24, 24, 24*/
+/* Grey rgb 170, 170, 170*/
 html {
     background-color:rgb(24, 24, 24);
     font-family: 'Chakra Petch', 'Roboto', sans-serif;
@@ -77,7 +78,7 @@ html {
         font-variant-caps:small-caps;
         color:rgb(24, 24, 24);
         background-color:rgb(170, 170, 170);
-        box-shadow: rgb(66, 66, 66) 2em;
+        box-shadow: rgba(24, 24, 24, 0.2) 2em;
     }
 
     .nav-button:hover {
@@ -102,6 +103,11 @@ html {
         border:rgb(160, 69, 69) solid;
         border-width: 0.5em 0px 0px 1em;
         box-shadow: 0 4px 8xp 0 rgba(0,0,0,0.2)
+    }
+    
+    .button-link {
+        color:rgb(202, 202, 202);
+        background-color:
     }
 
     .content-post:hover {
