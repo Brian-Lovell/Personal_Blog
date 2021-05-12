@@ -80,6 +80,11 @@ html {
         box-shadow: rgb(66, 66, 66) 2em;
     }
 
+    .nav-button:hover {
+        color:rgba(255, 255, 94, 0.815);
+        border-style:outset;
+    }
+
     /* Content Style */
     .content-main {
         display:flex;
