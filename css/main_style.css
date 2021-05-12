@@ -96,11 +96,11 @@ html {
         padding:0.5em;
         border:rgb(160, 69, 69) solid;
         border-width: 0.5em 0px 0px 1em;
-        box-shadow: 0 4px 8xp 0 rga(0,0,0,0.2)
+        box-shadow: 0 4px 8xp 0 rgba(0,0,0,0.2)
     }
 
     .content-post:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        box-shadow: 0 8px 16px 0 rgba(9, 155, 253, 0.507);
     }
 
     /* Footer Style */
