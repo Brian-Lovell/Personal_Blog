@@ -1,94 +1,73 @@
-
-/* Mobile or small screens */
-
-    /* Header Style */
-    .header {
-        font-style:italic;
-        font-size:larger;
-        font-variant-caps: small-caps;
-        border:rgb(160, 69, 69) solid;
-        border-width: 1em 0px 0px 1em;
+/* Header Style */
+.header {
+    font-style:italic;
+    font-size:larger;
+    font-variant-caps: small-caps;
+    border:rgb(160, 69, 69) solid;
+    border-width: 1em 0px 0px 1em;
     }
 
-    /* Navigation Style */
-    .nav {
-        display:flex;
-        grid-area:nav;
-        flex-direction:row;
-        border:rgb(160, 69, 69) 5px inset;
-        border-radius:5%;
-        background-color:grey;
-    }
+/* Navigation Style */
+.nav {
+    border:rgb(160, 69, 69) 5px inset;
+    border-radius:5%;
+    background-color:grey;
+}
 
-    .nav-button {
-        display:flex;
-        margin:0.5em;
-        padding:0.5em;
-        border: rgb(160, 69, 69) 8px inset;
-        border-radius:25% 10%;
-        font-weight:bold;
-        font-variant-caps:small-caps;
-        color:rgb(24, 24, 24);
-        background-color:rgb(170, 170, 170);
-        box-shadow: rgba(24, 24, 24, 0.2) 2em;
-    }
+.nav-button {
+    border: rgb(160, 69, 69) 8px inset;
+    border-radius:25% 10%;
+    font-weight:bold;
+    font-variant-caps:small-caps;
+    color:rgb(24, 24, 24);
+    background-color:rgb(170, 170, 170);
+    box-shadow: rgba(24, 24, 24, 0.2) 2em;
+}
 
-    .nav-button:hover {
+.nav-button:hover {
         color:rgba(255, 255, 94, 0.815);
         text-shadow:0.25em 0.25em 0.5em rgba(255, 255, 94, 0.815);
         border-style:outset;
-    }
+}
 
-    /* Content Style */
-    .content-main {
-        display:flex;
-        grid-area:ctm;
-        flex-direction:column;
-        border:red 2px solid;
-    }
+/* Content Style */
+.content-main {
+    display:flex;
+    grid-area:ctm;
+    flex-direction:column;
+    border:red 2px solid;
+}
 
-    .content-post {
-        display:flex;
-        flex-direction:column;
-        justify-content:left;
-        margin:0.5em;
-        padding:0.5em;
-        border:rgb(160, 69, 69) solid;
-        border-width: 0.5em 0px 0px 1em;
-        box-shadow: 0 4px 8xp 0 rgba(0,0,0,0.2)
-    }
+.content-post {
+    border:rgb(160, 69, 69) solid;
+    border-width: 0.5em 0px 0px 1em;
+    box-shadow: 0 4px 8xp 0 rgba(0,0,0,0.2)
+}
     
-    .button-link {
-        text-align: center;
-        text-decoration:none;
-        color:rgb(24, 24, 24);
-        background-color:rgb(170, 170, 170);
-        display: inline-block;
-    }
+.button-link {
+    color:rgb(24, 24, 24);
+    background-color:rgb(170, 170, 170);
+}
 
-    .button-link:hover {
-        color:rgba(255, 255, 94, 0.815);
-    }
+.button-link:hover {
+    color:rgba(255, 255, 94, 0.815);
+}
 
-    .content-post:hover {
-        box-shadow: 0 8px 16px 0 rgba(9, 155, 253, 0.507);
-    }
+.content-post:hover {
+    box-shadow: 0 8px 16px 0 rgba(9, 155, 253, 0.507);
+}
 
-    /* Footer Style */
-    .footer {
-        display:flex;
-        grid-area:ftr;
-        margin:0.5em;
-        padding:0.5em;
-        border:red 2px solid;
-    }
-    /* Border Style */
-    .content-left-border {
-        display:none;
-    }
+/* Footer Style */
+.footer {
+    border:red 2px solid;
+}
+/* Border Style */
+.content-left-border {
+    border: red 2px solid;
+}
 
-    .content-right-border {
-        display:none;
-    }
+.content-right-border {
+    border: red 2px solid;
+}
 /* TODO: Add middle format - remove sidebars? */
 /* Widescreen */

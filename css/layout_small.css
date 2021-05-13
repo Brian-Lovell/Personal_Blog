@@ -19,10 +19,9 @@
     .bottom-pad {
         display:flex;
         grid-area:bp;
-        border:red 2px solid;
     }
 
-    /* Content Container */
+    /* Content Container Layout */
     .content {
         display:grid;
         grid-area:ct;
@@ -43,11 +42,53 @@
         grid-area:hd;
     }
 
-    /* Navigation Style */
+    /* Navigation Layout */
     .nav {
         display:flex;
         grid-area:nav;
         flex-direction:row;
     }
 
+    .nav-button {
+        display:flex;
+        margin:0.5em;
+        padding:0.5em;
+    }
+
+    /* Content Layout */
+    .content-main {
+        display:flex;
+        grid-area:ctm;
+        flex-direction:column;
+        border:red 2px solid;
+    }
+
+    .content-post {
+        display:flex;
+        flex-direction:column;
+        justify-content:left;
+        margin:0.5em;
+        padding:0.5em;
+    }
+    
+    .button-link {
+        text-align: center;
+        text-decoration:none;
+        display: inline-block;
+    }
+    /* Footer Layout */
+    .footer {
+        display:flex;
+        grid-area:ftr;
+        margin:0.5em;
+        padding:0.5em;
+    }
+    /* Border Layout */
+    .content-left-border {
+        display:none;
+    }
+   
+    .content-right-border {
+        display:none;
+    }
 }
