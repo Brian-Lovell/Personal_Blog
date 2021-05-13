@@ -2,8 +2,8 @@
 .content-left-border {
     /* background-image: url(../images/left_side.png); */
     /* background-size:stretch; */
-    border:none;
-    border-width: 1em 0 1em 5em;
+    border:inset;
+    border-width: .25em 0 .25em .25em;
     background-color: gray;
 
 }
