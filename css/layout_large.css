@@ -89,12 +89,12 @@
     .content-left-border {
         display:flex;
         grid-area:clb;
-        width:150px;
+        width:auto;
     }
    
     .content-right-border {
         display:flex;
         grid-area:crb;
-        width:50px;
+        width:auto;
     }
 }

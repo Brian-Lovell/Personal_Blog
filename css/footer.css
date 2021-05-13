@@ -1,7 +1,7 @@
 /* Footer Style */
 .footer {
     background-image: url(../images/footer.png);
-    background-size:cover;
+    background-size:stretch;
     background-position: bottom;
     border:none;
 }

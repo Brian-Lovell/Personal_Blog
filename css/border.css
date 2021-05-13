@@ -1,7 +1,7 @@
 /* Border Style */
 .content-left-border {
     background-image: url(../images/left_side.png);
-    background-size:cover;
+    background-size:stretch;
     border: none;
 }
 
