@@ -80,7 +80,6 @@
     /* Footer Layout */
     .footer {
         display:flex;
-        height:100px;
         grid-area:ftr;
         margin:0;
         padding:0.5em;
