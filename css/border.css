@@ -2,7 +2,15 @@
 .content-left-border {
     /* background-image: url(../images/left_side.png); */
     /* background-size:stretch; */
-    border: 1px 0 0 1px red;
+    border:none;
+    border-width: 1em 0 1em 5em;
+    background-color: gray;
+
+}
+
+.left-border-box {
+    background-color: rgb(160, 69, 69);
+    border:2px rgb(160, 69, 69) inset;
 }
 
 .content-right-border {
