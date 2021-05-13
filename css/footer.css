@@ -3,7 +3,8 @@
     /* background-image: url(../images/footer.png); */
     /* background-size:stretch;
     background-position: bottom; */
-    background-color:grey;
-    border:none;
+    background-color:rgb(170, 170, 170);
+    border:inset;
+    border-width: 0.25em 0 0.25em 0;
     height:auto;
 }
