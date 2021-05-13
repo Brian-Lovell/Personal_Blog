@@ -1,13 +1,4 @@
-/* Red rgb 160, 69, 69 */
-/* Silver rgb 202, 202, 202*/
-/* Black rgb  24, 24, 24*/
-/* Grey rgb 170, 170, 170*/
-/* Yellow rgba(255, 255, 94, 0.815)*/
-html {
-    background-color:rgb(24, 24, 24);
-    font-family: 'Chakra Petch', 'Roboto', sans-serif;
-    color:rgb(202, 202, 202);
-}
+
 /* Mobile or small screens */
 @media (max-width:520px) {
     /* Page Styling */
