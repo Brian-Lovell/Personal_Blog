@@ -67,7 +67,7 @@
     .content-post {
         display:flex;
         flex-direction:column;
-        justify-content:left;
+        justify-content:space-between;
         padding:0.5em;
         margin: 2em;
     }
