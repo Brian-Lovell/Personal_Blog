@@ -1,4 +1,7 @@
 /* Footer Style */
 .footer {
-    border:red 2px solid;
+    background-image: url(../images/footer.png);
+    background-size:cover;
+    background-position: bottom;
+    border:none;
 }

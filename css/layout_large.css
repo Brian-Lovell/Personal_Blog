@@ -2,17 +2,20 @@
     /* TODO:Setup for widescreen */
     .main-page {
         display:grid;
+        grid-template-columns: auto auto auto;
         grid-template-areas:
-        "ct"
-        "bp";
+        "lp ct rp"
+        "lp bp rp";
     }
 
     .left-pad {
-        display:none;
+        display:flex;
+        grid-area:lp;
     }
 
     .right-pad {
-        display:none;
+        display:flex;
+        grid-area:rp;
     }
 
     .bottom-pad {
@@ -24,11 +27,12 @@
     .content {
         display:grid;
         grid-area:ct;
+        grid-template-columns: auto auto auto;
         grid-template-areas:
-        "hd"
-        "nav"
-        "ctm"
-        "ftr";
+        "clb hd hd crb"
+        "clb nav nav crb"
+        "clb ctm ctm crb"
+        "clb ftr ftr crb";
     }
 
     /* Header Layout */
@@ -57,14 +61,13 @@
     .content-main {
         display:flex;
         grid-area:ctm;
-        flex-direction:column;
+        flex-direction:row;
     }
 
     .content-post {
         display:flex;
         flex-direction:column;
         justify-content:left;
-        margin:0.5em;
         padding:0.5em;
     }
     
@@ -76,16 +79,21 @@
     /* Footer Layout */
     .footer {
         display:flex;
+        height:100px;
         grid-area:ftr;
-        margin:0.5em;
+        margin:0;
         padding:0.5em;
     }
     /* Border Layout */
     .content-left-border {
-        display:none;
+        display:flex;
+        grid-area:clb;
+        width:150px;
     }
    
     .content-right-border {
-        display:none;
+        display:flex;
+        grid-area:crb;
+        width:50px;
     }
 }

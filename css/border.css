@@ -1,8 +1,10 @@
 /* Border Style */
 .content-left-border {
-    border: red 2px solid;
+    background-image: url(../images/left_side.png);
+    background-size:cover;
+    border: none;
 }
 
 .content-right-border {
-    border: red 2px solid;
+    border:none;
 }
