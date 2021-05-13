@@ -1,8 +1,8 @@
 /* Border Style */
 .content-left-border {
-    background-image: url(../images/left_side.png);
-    background-size:stretch;
-    border: none;
+    /* background-image: url(../images/left_side.png); */
+    /* background-size:stretch; */
+    border: 1px 0 0 1px red;
 }
 
 .content-right-border {
