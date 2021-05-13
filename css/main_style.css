@@ -32,9 +32,6 @@
 
 /* Content Style */
 .content-main {
-    display:flex;
-    grid-area:ctm;
-    flex-direction:column;
     border:red 2px solid;
 }
 

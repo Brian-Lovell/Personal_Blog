@@ -30,7 +30,6 @@
         "nav"
         "ctm"
         "ftr";
-        border:red 2px solid;
     }
 
     /* Header Layout */
@@ -60,7 +59,6 @@
         display:flex;
         grid-area:ctm;
         flex-direction:column;
-        border:red 2px solid;
     }
 
     .content-post {
