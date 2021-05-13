@@ -1,8 +1,8 @@
-@media (min-width:901px) {
+@media (min-width:1079px) {
     /* TODO:Setup for widescreen */
     .main-page {
         display:grid;
-        grid-template-columns: auto 900px auto;
+        grid-template-columns: auto 1080px auto;
         grid-template-areas:
         "lp ct rp"
         "lp bp rp";
