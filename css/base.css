@@ -1,6 +1,7 @@
 @import url(layout_small.css);
 @import url(layout_medium.css);
 @import url(layout_large.css);
+@import url(layout_blog.css);
 @import url(header.css);
 @import url(navigation.css);
 @import url(content.css);
@@ -16,6 +17,13 @@ html {
     font-family: 'Chakra Petch', 'Roboto', sans-serif;
     color:rgb(202, 202, 202);
 }
+
+img {
+    /* padding:1em; */
+    width:100%;
+    box-shadow:0 0 6px rgba(9, 155, 253, 0.75);
+}
+
 .reference {
     font-size:x-small;
     margin:1em;

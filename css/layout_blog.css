@@ -1,0 +1,7 @@
+/* Blog layout */
+.blog-post {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:1em;
+}
