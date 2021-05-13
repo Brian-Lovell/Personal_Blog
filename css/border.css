@@ -1,0 +1,8 @@
+/* Border Style */
+.content-left-border {
+    border: red 2px solid;
+}
+
+.content-right-border {
+    border: red 2px solid;
+}

@@ -1,0 +1,8 @@
+/* Header Style */
+.header {
+    font-style:italic;
+    font-size:larger;
+    font-variant-caps: small-caps;
+    border:rgb(160, 69, 69) solid;
+    border-width: 1em 0px 0px 1em;
+}

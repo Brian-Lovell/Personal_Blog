@@ -1,5 +1,10 @@
 @import url(main_style.css);
 @import url(layout_small.css);
+@import url(header.css);
+@import url(navigation.css);
+@import url(content.css);
+@import url(footer.css);
+@import url(border.css);
 /* Red rgb 160, 69, 69 */
 /* Silver rgb 202, 202, 202*/
 /* Black rgb  24, 24, 24*/
