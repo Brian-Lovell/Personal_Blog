@@ -106,8 +106,11 @@ html {
     }
     
     .button-link {
-        color:rgb(202, 202, 202);
-        background-color:
+        text-align: center;
+        text-decoration:none;
+        color:rgb(24, 24, 24);
+        background-color:rgb(170, 170, 170);
+        display: inline-block;
     }
 
     .content-post:hover {
