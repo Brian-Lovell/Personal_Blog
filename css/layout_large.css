@@ -61,7 +61,7 @@
     .content-main {
         display:flex;
         grid-area:ctm;
-        flex-direction:row;
+        flex-direction:column;
     }
 
     .content-post {
@@ -69,6 +69,7 @@
         flex-direction:column;
         justify-content:left;
         padding:0.5em;
+        margin: 2em;
     }
     
     .button-link {
