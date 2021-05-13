@@ -3,7 +3,7 @@
     border:rgb(160, 69, 69) inset;
     border-width: 5px 5px 5px 0;
     /* border-radius:5%; */
-    background-color:grey;
+    background-color:rgb(170, 170, 170);
 }
 
 .nav-button {
