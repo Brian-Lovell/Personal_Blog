@@ -1,22 +1,29 @@
-@media (min-width:600px)and(max-width:900px) {
+@media (min-width:600px){
     /* TODO: Setup grid for medium*/
     .main-page {
         display:grid;
+        grid-template-columns: auto 600px auto;
         grid-template-areas:
-        "ct"
-        "bp";
+        "lp ct rp"
+        "lp ct rp"
+        "lp bp rp";
     }
 
     .left-pad {
-        display:none;
+        display:flex;
+        width:auto;
+        grid-area:lp;
     }
 
     .right-pad {
-        display:none;
+        display:flex;
+        width:auto;
+        grid-area:rp;
     }
 
     .bottom-pad {
         display:flex;
+        height:auto;
         grid-area:bp;
     }
 

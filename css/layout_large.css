@@ -1,4 +1,5 @@
-    /* Single column */
+@media (min-width:901px) {
+    /* TODO:Setup for widescreen */
     .main-page {
         display:grid;
         grid-template-areas:
