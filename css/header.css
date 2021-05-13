@@ -6,3 +6,9 @@
     border:rgb(160, 69, 69) solid;
     border-width: 1em 0 0 0;
 }
+
+.header-blog {
+    font-variant-caps:small-caps;
+    border:rgb(160, 69, 69) solid;
+    border-width: 1em 0 0 0;
+}
