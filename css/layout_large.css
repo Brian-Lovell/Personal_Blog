@@ -2,7 +2,7 @@
     /* TODO:Setup for widescreen */
     .main-page {
         display:grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto 900px auto;
         grid-template-areas:
         "lp ct rp"
         "lp bp rp";
@@ -61,7 +61,7 @@
     .content-main {
         display:flex;
         grid-area:ctm;
-        flex-direction:column;
+        flex-direction:row;
     }
 
     .content-post {
