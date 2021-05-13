@@ -2,6 +2,7 @@
 /* Silver rgb 202, 202, 202*/
 /* Black rgb  24, 24, 24*/
 /* Grey rgb 170, 170, 170*/
+/* Yellow rgba(255, 255, 94, 0.815)*/
 html {
     background-color:rgb(24, 24, 24);
     font-family: 'Chakra Petch', 'Roboto', sans-serif;
@@ -16,7 +17,6 @@ html {
         grid-template-areas:
         "ct"
         "bp";
-
     }
 
     .left-pad {
@@ -111,6 +111,10 @@ html {
         color:rgb(24, 24, 24);
         background-color:rgb(170, 170, 170);
         display: inline-block;
+    }
+
+    .button-link:hover {
+        color:rgba(255, 255, 94, 0.815);
     }
 
     .content-post:hover {
