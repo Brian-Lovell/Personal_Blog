@@ -1,48 +1,8 @@
 
 /* Mobile or small screens */
-@media (max-width:520px) {
-    /* Page Styling */
-    /* Single column */
-    .main-page {
-        display:grid;
-        grid-template-areas:
-        "ct"
-        "bp";
-    }
-
-    .left-pad {
-        display:none;
-    }
-
-    .right-pad {
-        display:none;
-    }
-
-    .bottom-pad {
-        display:flex;
-        grid-area:bp;
-        border:red 2px solid;
-    }
-
-    /* Content Container */
-    .content {
-        display:grid;
-        grid-area:ct;
-        grid-template-areas:
-        "hd"
-        "nav"
-        "ctm"
-        "ftr";
-        border:red 2px solid;
-    }
 
     /* Header Style */
     .header {
-        display:flex;
-        justify-content:left;
-        height:100px;
-        padding:1em;
-        grid-area:hd;
         font-style:italic;
         font-size:larger;
         font-variant-caps: small-caps;
@@ -130,6 +90,5 @@
     .content-right-border {
         display:none;
     }
-}
 /* TODO: Add middle format - remove sidebars? */
 /* Widescreen */
