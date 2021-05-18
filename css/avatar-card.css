@@ -1,8 +1,14 @@
-.avatar {
+.avatar-card {
     display:flex;
+    flex-direction:row;
+    padding:0.5em;
+    margin:0.5em;
+    justify-content:left;
 }
 .img-avatar {
     height:100px;
     width:100px;
+    margin:1.0em;
+    border-radius: 80%;
     box-shadow:0 0 6px rgba(9, 155, 253, 0.75);
 }
