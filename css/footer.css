@@ -13,6 +13,6 @@
 .footer {
     display:flex;
     grid-area:ftr;
-    margin:0.5em;
+    margin:0.0em;
     padding:0.5em;
 }

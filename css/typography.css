@@ -8,3 +8,15 @@ html {
     font-size:x-small;
     margin:1em;
 }
+/* h1 custom header */
+.header {
+    font-style:italic;
+    font-size:x-large;
+    font-variant-caps: small-caps;
+}
+/* h2 custome header */
+/* h3 custom header */
+/* p customer paragraph */
+/* bold italic underlined */
+/* links */
+/* quotes */
