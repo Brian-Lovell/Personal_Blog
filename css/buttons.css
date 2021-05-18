@@ -24,8 +24,13 @@
     padding:0.5em;
 }
 
+.nav-button:visited {
+    text-decoration: none;
+    /* color:rgb(24, 24, 24); */
+}
 .nav-button:hover {
         color:rgba(255, 255, 94, 0.815);
         text-shadow:0.25em 0.25em 0.5em rgba(255, 255, 94, 0.815);
         border-style:outset;
 }
+

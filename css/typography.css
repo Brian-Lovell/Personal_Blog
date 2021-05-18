@@ -37,6 +37,9 @@ p {
 a {
     font-variant-caps: small-caps;
 }
+/* a:visited {
+    color:rgb(242, 252, 152);
+} */
 
 /* quotes */
 q {
