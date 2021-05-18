@@ -19,6 +19,9 @@
     color:rgb(24, 24, 24);
     background-color:rgb(170, 170, 170);
     box-shadow: rgba(24, 24, 24, 0.2) 2em;
+    display:flex;
+    margin:0.5em;
+    padding:0.5em;
 }
 
 .nav-button:hover {

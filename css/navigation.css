@@ -6,17 +6,9 @@
     background-color:rgb(170, 170, 170);
 }
 
-
-
 /* Navigation Layout */
 .nav {
     display:flex;
     grid-area:nav;
     flex-direction:row;
-}
-
-.nav-button {
-    display:flex;
-    margin:0.5em;
-    padding:0.5em;
 }

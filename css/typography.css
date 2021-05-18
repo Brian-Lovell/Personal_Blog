@@ -3,7 +3,7 @@ html {
     font-family: 'Chakra Petch', 'Roboto', sans-serif;
     color:rgb(202, 202, 202);
 }
-
+/* small decroative text for borders and footer */
 .reference {
     font-size:x-small;
     margin:1em;
@@ -14,9 +14,31 @@ html {
     font-size:x-large;
     font-variant-caps: small-caps;
 }
+
 /* h2 custome header */
+h2 {
+    font-variant-caps: small-caps;
+    font-size:large;
+}
+
 /* h3 custom header */
+h3 {
+    font-variant-caps: small-caps;
+    font-size:medium;
+}
+
 /* p customer paragraph */
+p {
+    font-style:normal;
+}
+
 /* bold italic underlined */
 /* links */
+a {
+    font-variant-caps: small-caps;
+}
+
 /* quotes */
+q {
+    font-style:italic;
+}
