@@ -1,0 +1,8 @@
+.avatar {
+    display:flex;
+}
+.img-avatar {
+    height:100px;
+    width:100px;
+    box-shadow:0 0 6px rgba(9, 155, 253, 0.75);
+}
