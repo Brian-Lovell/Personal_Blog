@@ -27,3 +27,26 @@
 .content-right-border {
     display:none;
 }
+/* Large screen enables border */
+@media (min-width:1079px) {
+    /* Border Layout */
+    .content-left-border {
+        display:flex;
+        grid-area:clb;
+        flex-direction: column;
+        justify-content: left;   
+        width:auto;
+    }
+
+    .left-border-box {
+        height: 45px;
+        width:auto;
+        margin:1em 0 0 0;
+    }
+   
+    .content-right-border {
+        display:flex;
+        grid-area:crb;
+        width:auto;
+    }
+}

@@ -9,14 +9,28 @@
     "ftr";
 }
 
-/* Content Style */
-.content-main {
-    border:none;
-}
-
-/* Content Layout */
+/* Content Main Layout */
 .content-main {
     display:flex;
     grid-area:ctm;
     flex-direction:column;
+}
+/* Large size screens */
+@media (min-width:1079px) {
+    .content {
+        display:grid;
+        grid-area:ct;
+        grid-template-columns: auto auto auto;
+        grid-template-areas:
+        "clb hd hd crb"
+        "clb nav nav crb"
+        "clb ctm ctm crb"
+        "clb ftr ftr crb";
+    }
+    
+    .content-main {
+        display:flex;
+        grid-area:ctm;
+        flex-direction:row;
+    }
 }

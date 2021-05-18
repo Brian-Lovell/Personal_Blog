@@ -18,3 +18,59 @@
     display:flex;
     grid-area:bp;
 }
+
+/* Three columns with content centered */
+@media (min-width:600px){
+    .main-page {
+        display:grid;
+        grid-template-columns: auto 600px auto;
+        grid-template-areas:
+        "lp ct rp"
+        "lp ct rp"
+        "lp bp rp";
+    }
+
+    .left-pad {
+        display:flex;
+        width:auto;
+        grid-area:lp;
+    }
+
+    .right-pad {
+        display:flex;
+        width:auto;
+        grid-area:rp;
+    }
+
+    .bottom-pad {
+        display:flex;
+        height:auto;
+        grid-area:bp;
+    }
+}
+
+/* Three columns with wider center column centered */
+@media (min-width:1079px) {
+    .main-page {
+        display:grid;
+        grid-template-columns: auto 1080px auto;
+        grid-template-areas:
+        "lp ct rp"
+        "lp bp rp";
+    }
+
+    .left-pad {
+        display:flex;
+        grid-area:lp;
+    }
+
+    .right-pad {
+        display:flex;
+        grid-area:rp;
+    }
+
+    .bottom-pad {
+        display:flex;
+        grid-area:bp;
+    }
+}
