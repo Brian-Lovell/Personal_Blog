@@ -4,6 +4,7 @@
     text-align: center;
     text-decoration:none;
     display: inline-block;
+    font-style:oblique;
 }
 
 .button-link:hover {
