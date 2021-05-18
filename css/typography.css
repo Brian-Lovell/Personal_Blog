@@ -1,0 +1,10 @@
+html {
+    background-color:rgb(24, 24, 24);
+    font-family: 'Chakra Petch', 'Roboto', sans-serif;
+    color:rgb(202, 202, 202);
+}
+
+.reference {
+    font-size:x-small;
+    margin:1em;
+}

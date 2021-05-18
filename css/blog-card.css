@@ -1,9 +1,14 @@
 .blog-card{
+    display:flex;
+    flex-direction:column;
+    justify-content:left;
+    margin:1em;
+    padding:0.5em;
     border:rgb(160, 69, 69) solid;
     border-width: 0.5em 0px 0px 1em;
     box-shadow: 0 4px 8xp 0 rgba(0,0,0,0.2)
 }
 
-/* .blog-card {
-    border:red 2px solid;
-} */
+.blog-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(9, 155, 253, 0.507);
+}
