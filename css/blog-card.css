@@ -1,0 +1,9 @@
+.blog-card{
+    border:rgb(160, 69, 69) solid;
+    border-width: 0.5em 0px 0px 1em;
+    box-shadow: 0 4px 8xp 0 rgba(0,0,0,0.2)
+}
+
+/* .blog-card {
+    border:red 2px solid;
+} */

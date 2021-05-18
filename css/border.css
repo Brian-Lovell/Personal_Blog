@@ -18,3 +18,12 @@
     border-width: 0.25em 0.25em 0.25em 0;
     background-color:rgb(170, 170, 170);
 }
+
+/* Border Layout */
+.content-left-border {
+    display:none;
+}
+   
+.content-right-border {
+    display:none;
+}

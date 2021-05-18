@@ -1,0 +1,20 @@
+/* Single column */
+.main-page {
+    display:grid;
+    grid-template-areas:
+    "ct"
+    "bp";
+}
+
+.left-pad {
+    display:none;
+}
+
+.right-pad {
+    display:none;
+}
+
+.bottom-pad {
+    display:flex;
+    grid-area:bp;
+}
