@@ -97,36 +97,37 @@ Great job! The pages are mobile-friendly. :clap:
 Screenshot 2021-05-19 at 9.25.34 PM.png
 
 ## Quality
-HTML5 semantic tags such as <header>, <footer>, <article>, <section> , etc. are used to add meaning to the code.
-No div or section selectors are without a CSS class or id.
-*Well done using semantic elements in your project. :tada:
-This helps structure the code we create, making it more readable and easier to maintain. These elements also clearly describe its meaning to both the browser and the developer.*
+**HTML5 semantic tags such as header, footer, article, section , etc. are used to add meaning to the code.**
+**No div or section selectors are without a CSS class or id.**
+*Well done using semantic elements in your project. :tada:*
+*This helps structure the code we create, making it more readable and easier to maintain. These elements also clearly describe its meaning to both the browser and the developer.*
 
-All code is lowercase
-The code does not have trailing white spaces.
-Indentation is consistent (either all tabs or all 2 spaces or all 4 spaces etc).
-Code uses a new line for every block, list or table element and indent every such child element (it is acceptable to put all elements in one line).
-When quoting attribute values, code uses consistent quotation marks (single vs. double).
-Code does use a new line for every block. Great job.
+- All code is lowercase
+- The code does not have trailing white spaces.
+- Indentation is consistent (either all tabs or all 2 spaces or all 4 spaces etc).
+- Code uses a new line for every block, list or table element and indent every such child element (it is acceptable to put all elements in one line).
+- When quoting attribute values, code uses consistent quotation marks (single vs. double).
+*Code does use a new line for every block. Great job.*
 
-HTML documents HTML5 <!doctype html>
-Code omits type attributes for style sheets and scripts.
-[Optional] Code does not use entity references unless necessary e.g. characters with special meaning (like < and &) as well as control or “invisible” characters (like no-break spaces).
-The code does not have trailing white spaces.
-Indentation is consistent (either all tabs or all 2 spaces or all 4 spaces etc).
-Code indents all content, that is rules within rules as well as declarations to reflect hierarchy and improve understanding.
-The code uses a semicolon after every declaration for consistency and extensibility reasons.
-Code always uses a space after a property name's colon, but no space between property and colon, for consistency reasons.
-Code always uses a single space between the last selector and the opening brace that begins the declaration block. Code always start a new line for each selector and declaration.
-Code always put a blank line (two line breaks) between rules.
-Code uses consistent quotation marks for attribute selectors or property values (single vs. double).
-The indentation is perfectly done. Great job! :clap:
+- HTML documents HTML5 doctype html
+- Code omits type attributes for style sheets and scripts.
+- [Optional] Code does not use entity references unless necessary e.g. characters with special meaning (like < and &) as well as control or “invisible” characters (like no-break spaces).
 
-The code uses meaningful or generic ID and class names that are as short as possible, but as long as necessary.
-The code does not use element names in conjunction with IDs or classes.
-The code uses shorthand properties where possible.
-[Optional] Code omits unit specification after 0 values.
-[Optional] Code includes leading 0s in decimal values for readability.
-[Optional] Code uses 3-character hexadecimal notation where possible.
-[Optional] Code separates words in ID and class names by a hyphen.
-Great job! The code met all these specifications. :clap:
+- The code does not have trailing white spaces.
+- Indentation is consistent (either all tabs or all 2 spaces or all 4 spaces etc).
+- Code indents all content, that is rules within rules as well as declarations to reflect hierarchy and improve understanding.
+- The code uses a semicolon after every declaration for consistency and extensibility reasons.
+- Code always uses a space after a property name's colon, but no space between property and colon, for consistency reasons.
+- Code always uses a single space between the last selector and the opening brace that begins the declaration block. Code always start a new line for each selector and declaration.
+- Code always put a blank line (two line breaks) between rules.
+- Code uses consistent quotation marks for attribute selectors or property values (single vs. double).
+*The indentation is perfectly done. Great job! :clap:*
+
+- The code uses meaningful or generic ID and class names that are as short as possible, but as long as necessary.
+- The code does not use element names in conjunction with IDs or classes.
+- The code uses shorthand properties where possible.
+- [Optional] Code omits unit specification after 0 values.
+- [Optional] Code includes leading 0s in decimal values for readability.
+- [Optional] Code uses 3-character hexadecimal notation where possible.
+- [Optional] Code separates words in ID and class names by a hyphen.
+*Great job! The code met all these specifications. :clap:*
