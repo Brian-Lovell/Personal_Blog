@@ -3,55 +3,56 @@ This project requires you to utilize your HTML and CSS skills to build out a per
 
 # Udacity Review
 
-Meets Specifications
-Congratulations on completing the project! :clap: :boom: :tada:
+## Meets Specifications
+## Congratulations on completing the project! :clap: :boom: :tada:
 You did a great job to include all stats and all were working perfectly!
 Best of luck for future! :clap:
 I LOOK FORWARD TO HEAR FROM YOU IN YOUR FEEDBACK.
 These are the best practices you should follow to be a great web developer :
 https://blog.usejournal.com/what-makes-a-good-developer-80330712e22
 
-Structure
-Portfolio completely separates structure from design/style.
-There are no attributes present in the body of the document.
-There are no elements in the document.
-:white_check_mark: The portfolio completely separates structure from design/style.
-:white_check_mark: There are no attributes present in the body of the document.
-:white_check_mark: There are no elements in the document.
+## Structure
+- Portfolio completely separates structure from design/style.
+- There are no attributes present in the body of the document.
+- There are no elements in the document.
+:white_check_mark: *The portfolio completely separates structure from design/style.*
+:white_check_mark: *There are no attributes present in the body of the document.*
+:white_check_mark: *There are no elements in the document.*
 
-There should be at least 3 imported files in the main CSS file, but the student is welcome to break it down even further if that makes it easier for them.
+**There should be at least 3 imported files in the main CSS file, but the student is welcome to break it down even further if that makes it easier for them.**
 
-Files are organized with a directory structure that separates files based on page and functionality.
+**Files are organized with a directory structure that separates files based on page and functionality.**
 
-The files were organized in a perfect directory structure. :clap:
+*The files were organized in a perfect directory structure. :clap:*
 
-There is an intentional user flow on each page with appropriate links as needed.
+**There is an intentional user flow on each page with appropriate links as needed.**
 
-The user flow is consitent and perfect between the pages. :clap:
+*The user flow is consitent and perfect between the pages. :clap:*
 
-Design
-Custom images, layout, and styling.
+## Design
+**Custom images, layout, and styling.**
 
 Great job designing your webpage without using any external frameworks:clap::clap:
 
-Typography: Custom design for typography with at least 3 unique properties for each typography selector
-Headers (h1 to h3 at minimum) <h1>
-Paragraph Text <p>
-a. Bold
-b. Italic
-c. Underlined
-Links <a>
-Quotes
-Colors: At least 3 colors are used.
-The following are used in the webpage:
+**Typography: Custom design for typography with at least 3 unique properties for each typography selector**
+- Headers (h1 to h3 at minimum)
+- Paragraph Text
+- a. Bold
+- b. Italic
+- c. Underlined
+- Links 
+- Quotes
+- Colors: At least 3 colors are used.
 
-Image(s)
-Image caption
-Buttons
-Card
-All of these were used on the website. Great job! :clap:
+**The following are used in the webpage:**
 
-The general pattern of the webpage should be as follows:
+- Image(s)
+- Image caption
+- Buttons
+- Card
+*All of these were used on the website. Great job! :clap:*
+
+**The general pattern of the webpage should be as follows:**
 
 Blog Homepage
 Navbar
@@ -72,19 +73,21 @@ Social Sharing
 Twitter
 Facebook
 LinkedIn
-The following pages should be present:
+
+**The following pages should be present:**
 
 Blog Homepage
 Blog Post
-Both of these pages were present. Great job adding more pages and creating a great beautiful website. :tada:
-Layout
+*Both of these pages were present. Great job adding more pages and creating a great beautiful website. :tada:*
+
+## Layout
 Uses Flexbox at least twice throughout the project to create a component or pattern
 
-The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning. Keep it up!
+*The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning. Keep it up!*
 
-Uses CSS Grid at least twice throughout the project to create the layout for pages
+**Uses CSS Grid at least twice throughout the project to create the layout for pages**
 
-Responsiveness
+## Responsiveness
 Pages are mobile-friendly and display correctly on all display sizes (mobile, tablet, desktop).
 
 Note: You can simulate Mobile Devices with Device Mode in Chrome DevTools.
@@ -93,11 +96,11 @@ Great job! The pages are mobile-friendly. :clap:
 
 Screenshot 2021-05-19 at 9.25.34 PM.png
 
-Quality
+## Quality
 HTML5 semantic tags such as <header>, <footer>, <article>, <section> , etc. are used to add meaning to the code.
 No div or section selectors are without a CSS class or id.
-Well done using semantic elements in your project. :tada:
-This helps structure the code we create, making it more readable and easier to maintain. These elements also clearly describe its meaning to both the browser and the developer.
+*Well done using semantic elements in your project. :tada:
+This helps structure the code we create, making it more readable and easier to maintain. These elements also clearly describe its meaning to both the browser and the developer.*
 
 All code is lowercase
 The code does not have trailing white spaces.
