@@ -94,7 +94,7 @@ Note: You can simulate Mobile Devices with Device Mode in Chrome DevTools.
 
 Great job! The pages are mobile-friendly. :clap:
 
-Screenshot 2021-05-19 at 9.25.34 PM.png
+
 
 ## Quality
 **HTML5 semantic tags such as header, footer, article, section , etc. are used to add meaning to the code.**
@@ -107,6 +107,7 @@ Screenshot 2021-05-19 at 9.25.34 PM.png
 - Indentation is consistent (either all tabs or all 2 spaces or all 4 spaces etc).
 - Code uses a new line for every block, list or table element and indent every such child element (it is acceptable to put all elements in one line).
 - When quoting attribute values, code uses consistent quotation marks (single vs. double).
+
 *Code does use a new line for every block. Great job.*
 
 - HTML documents HTML5 doctype html
@@ -130,4 +131,5 @@ Screenshot 2021-05-19 at 9.25.34 PM.png
 - [Optional] Code includes leading 0s in decimal values for readability.
 - [Optional] Code uses 3-character hexadecimal notation where possible.
 - [Optional] Code separates words in ID and class names by a hyphen.
+
 *Great job! The code met all these specifications. :clap:*
