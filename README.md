@@ -15,9 +15,12 @@ https://blog.usejournal.com/what-makes-a-good-developer-80330712e22
 - Portfolio completely separates structure from design/style.
 - There are no attributes present in the body of the document.
 - There are no elements in the document.
-:white_check_mark: *The portfolio completely separates structure from design/style.*
-:white_check_mark: *There are no attributes present in the body of the document.*
-:white_check_mark: *There are no elements in the document.*
+
+*:white_check_mark: The portfolio completely separates structure from design/style.*
+
+*:white_check_mark: There are no attributes present in the body of the document.*
+
+*:white_check_mark: There are no elements in the document.*
 
 **There should be at least 3 imported files in the main CSS file, but the student is welcome to break it down even further if that makes it easier for them.**
 
